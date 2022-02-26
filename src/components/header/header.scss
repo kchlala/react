@@ -1,0 +1,28 @@
+.advers {
+  li {
+    font-size: 15px;
+    padding: 0px 10px;
+  }
+}
+.bottom-header {
+  padding: 10px 0px;
+  background-color: #151c2b;
+  .home {
+    color: white;
+
+
+    li {
+        padding: 17px 30px;
+        transition: 0.2s ease-in-out;
+        // margin: 0px 10px;
+        &:hover{
+            background-color: #fc3c68;
+
+        }
+
+      &.pink {
+        background-color: #fc3c68;
+      }
+    }
+  }
+}
